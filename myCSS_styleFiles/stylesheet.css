@@ -1,0 +1,156 @@
+/* Global styles */
+
+body {
+    background-color: #f2f2f2;
+  }
+  
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .btn {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #F0F8FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  /* Hero section */
+  
+  hero {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 4rem);
+    position: relative;
+    text-align: center;
+  }
+  
+  hero img {
+    border-radius: 50%;
+    height: 15rem;
+    margin-top: 2rem;
+    width: 15rem;
+  }
+  
+  /* About section */
+  
+  about {
+    padding: 2rem;
+  }
+  
+  about ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Projects section */
+  
+  projects {
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
+  
+  projects li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  
+  projects h3 {
+    margin: 0;
+  }
+  
+  projects img {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /* Blog section */
+  
+  blog {
+    padding: 2rem;
+  }
+  
+  blog li {
+    margin-bottom: 2rem;
+  }
+  
+  blog h3 {
+    margin: 0;
+  }
+  
+  /* Contact section */
+  
+  contact {
+    background-color: #f2f2f2;
+    padding: 2rem;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input, form textarea {
+    border: 1px solid #ccc;
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  form button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
