@@ -1,0 +1,26 @@
+/* Postion leaflet map */
+#mapId {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    bottom: 75px;
+    left: 0px;
+  }
+
+/* slider design */
+#slider {
+  position: absolute;
+  bottom: 15px;
+  left: 600px;
+  width: 50%;
+}
+
+/* Button design */
+.btn {
+  color: gray;  
+  background-color: black;
+  border-color: gray;
+  
+}
+
+
